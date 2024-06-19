@@ -352,7 +352,7 @@ Download a single file with the browser
 From the ESGF, data search results can be downloaded
 
     * one file at a time with the browser or
-    * several files together with scripts (Wget, Globus, Synda or Python, view separate tutorials).
+    * several files together with scripts (Wget, Globus, esgpull or Python, view separate tutorials).
 
 This tutorial is a description how a file can be downloaded from ESGF without scripts and additional software, i.e. with the browser only. For the download of a single file, this is the easiest way and is recommended for beginners even if they need more than one file and want to switch to scripting because the user's authorization for data download can be completed embedded in a download with the browser.
 
@@ -781,13 +781,13 @@ This Wget command writes the same text file as shown above in the first text box
 
 The credentials directory .esg may also be copied from another computer where it already exists.
 
-Synda
+Esgpull
 ^^^^^
-Synda is a data synchronization and download tool that can be used by users in order to easily download files hosted on ESGF data nodes. 
+Esgpull is a data discovery and download tool that can be used by users in order to easily download files hosted on ESGF data nodes. 
 
-Starting August 2019, It can be obtained via conda package to ease installation for average users and still maintain a reliable release workflow to data managers wishing to replicate data across the grid. 
+It can be obtained via conda or pypi package to ease installation for average users and still maintain a reliable release workflow to data managers wishing to replicate data across the grid. 
 
-Further information about the tool (installation, configuration, usage, contact and contribution to the tool) can be found `here <https://portal.enes.org/data/data-metadata-service/data-discovery/synda>`_.
+Further information about the tool (installation, configuration, usage, contact and contribution to the tool) can be found `here <https://is.enes.org/sdm-sync-data/>`_.
 
 Own Python scripts
 ^^^^^^^^^^^^^^^^^^
